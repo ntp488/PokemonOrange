@@ -40,7 +40,9 @@ This project was created for a team assignment during Game Design I, and it is a
 More features will be added as development progresses.
 
 ## Notes
-The most difficult aspect of this project so far is creating smooth and exciting battles. This process is not yet complete. There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
+The most difficult aspect of this project so far is creating smooth and exciting battles. This process is not yet complete. 
+
+There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
 
 ## Acknowledgements
 Kris Nelson, Shay Madden, Richard Arredondo, and Braden Hearn are co-creators of this project.
