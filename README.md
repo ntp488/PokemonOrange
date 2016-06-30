@@ -28,9 +28,16 @@ This project was created for a team assignment during Game Design I, and it is a
 ### Upcoming Features
 <ul>
   <li>
-    Pokémon grow with their trainers! Train your Pokémon by battling against other trainers and wild Pokémon.
+    Experience Pokémon like never before in online multiplayer. Battle, train, and explore in a new Pokémon world with anyone anywhere!
+  </li>
+  <li>
+    Learn about new species of Pokémon and store their information in the Pokédex. Can you catch them all?
+  </li>
+  <li>
+    Save your Pokémon journey in single player mode or multiplayer mode and then load your game in the mode of your choice.
   </li>
 </ul>
+More features will be added as development progresses.
 
 ## Notes
 The most difficult aspect of this project so far is creating smooth and exciting battles. This process is not yet complete. There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
