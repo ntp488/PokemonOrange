@@ -101,7 +101,7 @@ More features will be added as development progresses.
 ## Notes
 The most difficult aspect of this project so far is creating smooth and exciting battles. This process is not yet complete. 
 
-There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
+There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we learned how to create this feature.
 
 The list of scripts and objects included in the game is constantly growing, but a few of the important ones are listed below:
 ```
