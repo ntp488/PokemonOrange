@@ -103,5 +103,31 @@ The most difficult aspect of this project so far is creating smooth and exciting
 
 There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
 
+The list of scripts and objects included in the game is constantly growing, but a few of the more important ones are listed below:
+
+netScript_ReceivedPacket() - 
+After a packet is received by a player, this script reads the packet's id. The script then searches for the appropriate response to the message and carries out the required operations.
+
+netScript_Client_SetIP() -
+This script sets the client IP address. It will soon be modified to accept user input in order to enable easier play-testing.
+
+netScript_Client_SetPort() -
+This script sets the client port. It will soon be modified to accept user input in order to enable easier play-testing.
+
+serverObj -
+This object manages server-client interaction and some basic information for the host player.
+
+clientObj -
+This object manages client-server interaction while maintaining the required client player information to sustain a connection.
+
+playerObj -
+This is the object through which the player interacts with the Pokémon world.
+
+playerOther -
+This object is utilized to create the visual appearance of other players, and facilitate player-player interaction via a point and click interface.
+
+chatBox -
+This object allows player communication in the chat window.
+
 ## Acknowledgements
 Kris Nelson, Shay Madden, Richard Arredondo, and Braden Hearn are co-creators of this project.
