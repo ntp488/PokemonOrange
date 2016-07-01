@@ -10,7 +10,7 @@ If you are interested in viewing or editing the project files, continue below.
 
 ### Game Maker Studio and Project Files
 
-<h3 id="playerInstall">Game Install</h2>
+<h3 id="playerInstall">Game Install</h3>
 <ol>
   <li>
     Download the archive from the github repository.
