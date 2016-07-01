@@ -106,13 +106,16 @@ There were also slight complications with integrating local networking because n
 The list of scripts and objects included in the game is constantly growing, but a few of the more important ones are listed below:
 ```
 netScript_ReceivedPacket() - 
-After a packet is received by a player, this script reads the packet's id. The script then searches for the appropriate response to the message and carries out the required operations.
+After a packet is received by a player, this script reads the packet's id. 
+The script then searches for the appropriate response to the message and carries out the required operations.
 
 netScript_Client_SetIP() -
-This script sets the client IP address. It will soon be modified to accept user input in order to enable easier play-testing.
+This script sets the client IP address. 
+It will soon be modified to accept user input in order to enable easier play-testing.
 
 netScript_Client_SetPort() -
-This script sets the client port. It will soon be modified to accept user input in order to enable easier play-testing.
+This script sets the client port. 
+It will soon be modified to accept user input in order to enable easier play-testing.
 
 serverObj -
 This object manages server-client interaction and some basic information for the host player.
