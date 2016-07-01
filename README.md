@@ -6,9 +6,9 @@ This project was created for a team assignment during Game Design I, and it is a
 
 ## Installation Instructions
 If you are only interested in playing the game during development skip to the <a href="#playerInstall">game install section</a>.
-If you are interested in viewing the project files, continue below.
+If you are interested in viewing or editing the project files, continue below.
 
-###
+### Game Maker Studio and Project Files
 
 <h3 id="playerInstall">Game Install</h2>
 <ol>
@@ -41,6 +41,7 @@ If you are interested in viewing the project files, continue below.
     Once the installation has completed, click "Next". You are finished! Thanks for downloading the game!
   </li>
 </ol>
+Note: If the file you download appears larger than you think it should be, then you are correct! You have downloaded the project files as well as executable. I will change the location from which players download the game at a later date to avoid this concern. This is a temporary solution.
 
 ## Features
 <ul>
