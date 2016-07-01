@@ -121,13 +121,15 @@ serverObj -
 This object manages server-client interaction and some basic information for the host player.
 
 clientObj -
-This object manages client-server interaction while maintaining the required client player information to sustain a connection.
+This object manages client-server interaction while maintaining the required client player 
+information to sustain a connection.
 
 playerObj -
 This is the object through which the player interacts with the Pokémon world.
 
 playerOther -
-This object is utilized to create the visual appearance of other players, and facilitate player-player interaction via a point and click interface.
+This object is utilized to create the visual appearance of other players, and facilitate 
+player-player interaction via a point and click interface.
 
 chatBox -
 This object allows player communication in the chat window.
