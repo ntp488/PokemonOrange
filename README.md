@@ -104,7 +104,7 @@ The most difficult aspect of this project so far is creating smooth and exciting
 There were also slight complications with integrating local networking because noone on our team had experience creating multiplayer content. After fumbling with GML for a while, we were able to adapt to create this feature.
 
 The list of scripts and objects included in the game is constantly growing, but a few of the more important ones are listed below:
-<code>
+```
 netScript_ReceivedPacket() - 
 After a packet is received by a player, this script reads the packet's id. The script then searches for the appropriate response to the message and carries out the required operations.
 
@@ -128,7 +128,7 @@ This object is utilized to create the visual appearance of other players, and fa
 
 chatBox -
 This object allows player communication in the chat window.
-</code>
+```
 
 ## Acknowledgements
 Kris Nelson, Shay Madden, Richard Arredondo, and Braden Hearn are co-creators of this project.
