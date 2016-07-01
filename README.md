@@ -9,6 +9,7 @@ If you are only interested in playing the game during development skip to the <a
 If you are interested in viewing or editing the project files, continue below.
 
 ### Game Maker Studio and Project Files
+In order to view the project files you will need to install Game Maker Studio. The latest version of Game Maker Studio can be installed <a href="http://www.yoyogames.com/get">here</a>. Steps on how to install Game Maker Studio and system requirements can be found <a href="http://help.yoyogames.com/hc/en-us/articles/216753618-Installing-GameMaker-Studio">here</a>. If you are having problems during the installation of Game Maker Studio, then you can submit a request for assistance <a href="http://help.yoyogames.com/hc/en-us/requests/new">here</a>.
 
 <h3 id="playerInstall">Game Install</h3>
 <ol>
