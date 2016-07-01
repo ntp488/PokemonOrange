@@ -13,7 +13,25 @@ If you are interested in viewing the project files, continue below.
 <h3 id="playerInstall">Game Install</h2>
 <ol>
   <li>
-    Download the archive from the github repository. 
+    Download the archive from the github repository.
+  </li>
+  <li>
+    Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
+  </li>
+  <li>
+    Locate the extracted folder, and open it. Double click PokemonOrangeV_XX.exe.
+  </li>
+  <li>
+    If a warning appears asking you to allow the app, choose "yes".
+  </li>
+  <li>
+    If you agree to the license agreement, chose "I Agree".
+  </li>
+  <li>
+    Select the components you would like to install and click "Next".
+  </li>
+  <li>
+    Choose the location where you would like to install the game files. Then click "Install". Once the installation has completed, click "Next". You are finished! Thanks for downloading the game!
   </li>
 </ol>
 
