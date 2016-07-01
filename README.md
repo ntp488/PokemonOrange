@@ -63,7 +63,7 @@ Once you have completed installing Game Maker Studio, you may continue below.
     Once the installation has completed, click "Next". You are finished! Thanks for downloading the game!
   </li>
 </ol>
-Note: If the file you download appears larger than you think it should be, you are correct! You have downloaded the project files as well as executable. I will change the location from which players download the game at a later date to avoid this concern. This is a temporary solution.
+<strong>Note: If the file you download appears larger than you think it should be, you are correct! You have downloaded the project files as well as executable. I will change the location from which players download the game at a later date to avoid this concern. This is a temporary solution.</strong>
 
 ## Features
 <ul>
