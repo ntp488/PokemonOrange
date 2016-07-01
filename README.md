@@ -15,7 +15,7 @@ If you are interested in viewing the project files, continue below.
   <li>
     Download the archive from the github repository.
   </li>
-  <img src=""/>
+  <img src="TutSnips/PokemonOrangeSnip4.PNG"/>
   <li>
     Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
   </li>
