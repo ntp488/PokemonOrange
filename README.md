@@ -21,7 +21,10 @@ Once you have completed installing Game Maker Studio, you may continue below.
     Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
   </li>
   <li>
-    Locate the extracted folder, and open it. Double click PokemonOrangeV_XX.project.
+    Locate the extracted folder, and open it. Double click the folder named "PokemonOrangeV_XX.gmx".
+  </li>
+  <li>
+    Double click "PokemonOrangeV_XX.project".
   </li>
   <img src="TutSnips/PokemonOrangeSnip8.PNG"/>
   <li>
@@ -36,10 +39,10 @@ Once you have completed installing Game Maker Studio, you may continue below.
   </li>
   <img src="TutSnips/PokemonOrangeSnip4.PNG"/>
   <li>
-    Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
+    Once the files have completed downloading, open "PokemonOrange-master.zip". Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
   </li>
   <li>
-    Locate the extracted folder, and open it. Double click PokemonOrangeV_XX.exe.
+    Locate the extracted folder, and open it. Double click "PokemonOrangeV_XX.exe".
   </li>
   <img src="TutSnips/PokemonOrangeSnip5.PNG"/>
   <li>
