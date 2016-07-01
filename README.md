@@ -9,9 +9,9 @@ If you are only interested in playing the game during development skip to the <a
 If you are interested in viewing or editing the project files, continue below.
 
 ### Game Maker Studio and Project Files
-In order to view the project files you will need to install Game Maker Studio. The latest version of Game Maker Studio can be installed <a href="http://www.yoyogames.com/get">here</a>. Steps on how to install Game Maker Studio and system requirements can be found <a href="http://help.yoyogames.com/hc/en-us/articles/216753618-Installing-GameMaker-Studio">here</a>. If you are having problems during the installation of Game Maker Studio, then you can submit a request for assistance <a href="http://help.yoyogames.com/hc/en-us/requests/new">here</a>.
+In order to view the project files you will need to install Game Maker Studio. The latest version of Game Maker Studio can be installed <a href="http://www.yoyogames.com/get">here</a>. Steps on how to install Game Maker Studio and system requirements can be found <a href="http://help.yoyogames.com/hc/en-us/articles/216753618-Installing-GameMaker-Studio">here</a>. If you are having problems during the installation of Game Maker Studio, you can submit a request for assistance <a href="http://help.yoyogames.com/hc/en-us/requests/new">here</a>.
 
-Once you have completed installing Game Maker Studio, then you may continue below.
+Once you have completed installing Game Maker Studio, you may continue below.
 <ol>
   <li>
     Download the archive from the github repository.
@@ -21,11 +21,11 @@ Once you have completed installing Game Maker Studio, then you may continue belo
     Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
   </li>
   <li>
-    Locate the extracted folder, and open it. Double click PokemonOrangeV_50.project.
+    Locate the extracted folder, and open it. Double click PokemonOrangeV_XX.project.
   </li>
   <img src="TutSnips/PokemonOrangeSnip8.PNG"/>
   <li>
-    If you have done everything correctly, then the project should open in Game Maker Studio! Thanks for the download!
+    If you have done everything correctly, the project should open in Game Maker Studio! Thanks for the download!
   </li>
 </ol>
 
@@ -60,7 +60,7 @@ Once you have completed installing Game Maker Studio, then you may continue belo
     Once the installation has completed, click "Next". You are finished! Thanks for downloading the game!
   </li>
 </ol>
-Note: If the file you download appears larger than you think it should be, then you are correct! You have downloaded the project files as well as executable. I will change the location from which players download the game at a later date to avoid this concern. This is a temporary solution.
+Note: If the file you download appears larger than you think it should be, you are correct! You have downloaded the project files as well as executable. I will change the location from which players download the game at a later date to avoid this concern. This is a temporary solution.
 
 ## Features
 <ul>
@@ -90,7 +90,7 @@ Note: If the file you download appears larger than you think it should be, then 
     Learn about new species of Pokémon and store their information in the Pokédex. Can you catch them all?
   </li>
   <li>
-    Save your Pokémon journey in single player mode or multiplayer mode and then load your game in the mode of your choice.
+    Save your Pokémon journey in single player mode or multiplayer mode and load your game in the mode of your choice.
   </li>
 </ul>
 More features will be added as development progresses.
