@@ -5,6 +5,9 @@ A Pokémon journey and personal project
 This project was created for a team assignment during Game Design I, and it is an ongoing project. This project is based on the popular Pokémon series created by Game Freak Inc. It contains many of the same features as the original Pokémon games (see features below for a detailed list), but it also adds a more expansive multiplayer experience. Future updates will bring online multiplayer options to the game as well as a more complete experience.
 
 ## Instructions
+If you are only interested in playing the game during development skip to the <a href="#playerInstall">game install section</a>.
+
+<h3 id="playerInstall">Game Install</h2>
 
 ## Features
 <ul>
