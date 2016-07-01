@@ -11,6 +11,24 @@ If you are interested in viewing or editing the project files, continue below.
 ### Game Maker Studio and Project Files
 In order to view the project files you will need to install Game Maker Studio. The latest version of Game Maker Studio can be installed <a href="http://www.yoyogames.com/get">here</a>. Steps on how to install Game Maker Studio and system requirements can be found <a href="http://help.yoyogames.com/hc/en-us/articles/216753618-Installing-GameMaker-Studio">here</a>. If you are having problems during the installation of Game Maker Studio, then you can submit a request for assistance <a href="http://help.yoyogames.com/hc/en-us/requests/new">here</a>.
 
+Once you have completed installing Game Maker Studio, then you may continue below.
+<ol>
+  <li>
+    Download the archive from the github repository.
+  </li>
+  <img src="TutSnips/PokemonOrangeSnip4.PNG"/>
+  <li>
+    Once the files have completed downloading, open PokemonOrange-master.zip. Extract the files to the location of your choice. It may be convenient to simply extract to your desktop.
+  </li>
+  <li>
+    Locate the extracted folder, and open it. Double click PokemonOrangeV_50.project.
+  </li>
+  <img src="TutSnips/PokemonOrangeSnip8.PNG"/>
+  <li>
+    If you have done everything correctly, then the project should open in Game Maker Studio! Thanks for the download!
+  </li>
+</ol>
+
 <h3 id="playerInstall">Game Install</h3>
 <ol>
   <li>
