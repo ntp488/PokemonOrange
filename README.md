@@ -22,18 +22,21 @@ If you are interested in viewing the project files, continue below.
   <li>
     Locate the extracted folder, and open it. Double click PokemonOrangeV_XX.exe.
   </li>
+  <img src="TutSnips/PokemonOrangeSnip5.PNG"/>
   <li>
     If a warning appears asking you to allow the app, choose "yes".
   </li>
   <li>
     If you agree to the license agreement, choose "I Agree".
   </li>
+  <img src="TutSnips/PokemonOrangeSnip6.PNG"/>
   <li>
     Select the components you would like to install, and click "Next".
   </li>
   <li>
     Choose the location where you would like to install the game files. Then, click "Install".
   </li>
+  <img src="TutSnips/PokemonOrangeSnip7.PNG"/>
   <li>
     Once the installation has completed, click "Next". You are finished! Thanks for downloading the game!
   </li>
