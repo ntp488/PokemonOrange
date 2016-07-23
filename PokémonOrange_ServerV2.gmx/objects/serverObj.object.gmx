@@ -30,7 +30,7 @@ var type = network_socket_tcp
 var port = netScript_Client_SetPort()
 max_clients = 32
 server = network_create_server(type, port, max_clients)
-socket = noone
+socket_list = ds_list_create()
 
 if (server &lt; 0) {
     show_message("Failed to create the server!")
@@ -41,6 +41,31 @@ var size = 1024
 var bufferType = buffer_grow
 var alignment = 1
 buffer = buffer_create(size, type, alignment)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (keyboard_check_released(vk_escape)) {
+    game_end()
+}
 </string>
           </argument>
         </arguments>
@@ -67,14 +92,17 @@ buffer = buffer_create(size, type, alignment)
 var type_event = async_load[? "type"]
 switch type_event {
     case network_type_connect:
-        //add client to socket variable - or a list for multiple clients
-        if (socket == noone) {
-            socket = async_load[? "socket"]
+        //add client to socket list
+        var socketid = async_load[? "socket"]
+        if (ds_list_find_index(self.socket_list, socketid) == -1) {
+            ds_list_add(self.socket_list, socketid)
             break
         }
     case network_type_disconnect:
         //remove the client from the socket variable
-        socket = noone
+        var socketid = async_load[? "socket"]
+        var socketNum = ds_list_find_index(self.socket_list, socketid)
+        ds_list_delete(self.socket_list, socketNum)
         break
     case network_type_data:
         //handle the data
@@ -105,8 +133,32 @@ switch type_event {
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Destroy server
-network_destroy(server)
+            <string>///Destroy server and socket list
+network_destroy(self.server)
+ds_list_destroy(self.socket_list)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text(self.x, self.y, string(ds_list_size(self.socket_list))) //ouput number of connected sockets
 </string>
           </argument>
         </arguments>

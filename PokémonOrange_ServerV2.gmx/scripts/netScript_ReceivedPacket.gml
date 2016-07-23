@@ -17,17 +17,6 @@ switch message_id {
         var ypos = buffer_read(buffer, buffer_u32)
         //read player animation
         var currentAnimation = buffer_read(buffer, buffer_string)
-        
-        //create playerOther if it doesn't exist
-        if !(instance_exists(playerOther)) {
-            instance_create(xpos, ypos, playerOther)
-            playerOther.animationHolder = currentAnimation
-        }
-        else { //if it does exist, just send the new x and y and animation
-            playerOther.x = xpos
-            playerOther.y = ypos
-            playerOther.animationHolder = currentAnimation
-        }
         break
     case 3:
         //receive chatBox.entryString
