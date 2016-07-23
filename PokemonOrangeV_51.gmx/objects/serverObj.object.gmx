@@ -143,10 +143,8 @@ switch type_event {
         */
         var sock = ds_map_find_value(async_load, "socket")
         ds_list_add(socket, sock)
-        var newplayer = instance_create(0, 0, playerOther)
-        with (newplayer) {
-            playerID = ds_map_find_value(async_load, "socket")
-        }
+        global.newplayer = instance_create(0, 0, playerOther)
+        global.newplayer.playerID = ds_map_find_value(async_load, "id")
         break
     case network_type_disconnect:
         //remove the client from the socket variable

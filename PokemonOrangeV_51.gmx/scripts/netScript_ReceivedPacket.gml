@@ -24,17 +24,22 @@ switch message_id {
             playerOther.animationHolder = currentAnimation
         }
         */
+        var flag = false
         for (var i = 0; i < instance_number(playerOther); i++) {
             if (instance_find(playerOther, i).playerID == argument[1]) {
-                correctPlayer = instance_find(playerOther, i)
+                global.correctPlayer = instance_find(playerOther, i)
                 //if it does exist, just send the new x and y and animation
-                correctPlayer.x = xpos
-                correctPlayer.y = ypos
-                correctPlayer.animationHolder = currentAnimation
+                global.correctPlayer.x = xpos
+                global.correctPlayer.y = ypos
+                global.correctPlayer.animationHolder = currentAnimation
+                flag = true
             }
         }
         //if it doesn't exist, make one.
-        
+        if !(flag) {
+            global.newplayer = instance_create(xpos, ypos, playerOther)
+            global.newplayer.animationHolder = currentAnimation
+        }
         
         /*else { //if it does exist, just send the new x and y and animation
             playerOther.x = xpos
