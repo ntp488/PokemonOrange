@@ -18,35 +18,16 @@ switch message_id {
         //read player animation
         var currentAnimation = buffer_read(buffer, buffer_string)
         
-        //check all playerOther for one with the correct socket id, if one doesn't exist, create it
-        /*if !(instance_exists(playerOther)) {
+        //create playerOther if it doesn't exist
+        if !(instance_exists(playerOther)) {
             instance_create(xpos, ypos, playerOther)
             playerOther.animationHolder = currentAnimation
         }
-        */
-        var flag = false
-        for (var i = 0; i < instance_number(playerOther); i++) {
-            if (instance_find(playerOther, i).playerID == argument[1]) {
-                global.correctPlayer = instance_find(playerOther, i)
-                //if it does exist, just send the new x and y and animation
-                global.correctPlayer.x = xpos
-                global.correctPlayer.y = ypos
-                global.correctPlayer.animationHolder = currentAnimation
-                flag = true
-            }
-        }
-        //if it doesn't exist, make one.
-        if !(flag) {
-            global.newplayer = instance_create(xpos, ypos, playerOther)
-            global.newplayer.animationHolder = currentAnimation
-        }
-        
-        /*else { //if it does exist, just send the new x and y and animation
+        else { //if it does exist, just send the new x and y and animation
             playerOther.x = xpos
             playerOther.y = ypos
             playerOther.animationHolder = currentAnimation
         }
-        */
         break
     case 3:
         //receive chatBox.entryString

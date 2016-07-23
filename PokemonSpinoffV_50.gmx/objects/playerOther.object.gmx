@@ -29,7 +29,6 @@
 depth = -150
 animationHolder = playerOne_Down
 sprite_index = animationHolder
-playerID = empty
 </string>
           </argument>
         </arguments>
@@ -52,10 +51,7 @@ playerID = empty
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if (sprite_exists(self.animationHolder)) {
-    sprite_index = self.animationHolder
-}
-*/
+            <string>sprite_index = asset_get_index(animationHolder)
 </string>
           </argument>
         </arguments>
