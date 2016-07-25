@@ -31,7 +31,7 @@ var port = netScript_Client_SetPort()
 max_clients = 32
 server = network_create_server(type, port, max_clients)
 socket_list = ds_list_create()
-clientDataArray = ds_grid_create(1, 3)
+clientDataArray = ds_grid_create(1, 4)
 
 if (server &lt; 0) {
     show_message("Failed to create the server!")
